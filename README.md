@@ -22,6 +22,8 @@ Also there is this very nice tools coolection by [@kagaimiq](https://github.com/
 
 The Debug interface of the Bluetrum series uses a one wire UART Connection, use it with a classic USB-to-UART Converter you can use the following schematic, note that this will not allow too high Baudrates so better set it to 115200 max a better schematic should work better^^
 
+The A9 Pro has the PB3 so the Debug pin routed to the CC(1/2 Depending on the orientation) Pin of the USB-C Connection which allows an easy connection on a very low level without opening the device 
+
 ![](images/UART_Downloadin_connection.png)
 
 You can find the dumped internal flash of the A9 Pro here [Headset_A9_Pro_Flash_dump.bin](Headset_A9_Pro_Flash_dump.bin)
