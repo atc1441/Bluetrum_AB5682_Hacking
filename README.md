@@ -41,7 +41,9 @@ To create a custom firmware that runs from the Internal MCP Flash the full layou
 
 0x10000 - 0x37C00 = 0x27C00 162816 byte RAM
 
-0x80000 - 0x97C00 = 0x17C00 97280 byte ROM
+0x3B000 <- Also some kind of RAM
+
+0x80000 - 0x98000 = 0x18000 98304 byte ROM
 
 0x10000000 = Internal SPI Flash memory mapped (Only after activating!)
 
