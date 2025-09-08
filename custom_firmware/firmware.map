@@ -1,0 +1,258 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_udivdi3.o)
+                              util.o (__udivdi3)
+c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_umoddi3.o)
+                              util.o (__umoddi3)
+c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_clz.o)
+                              c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_udivdi3.o) (__clz_tab)
+c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-memcpy.o)
+                              main.o (memcpy)
+c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-reent.o)
+                              util.o (errno)
+c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-impure.o)
+                              c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-reent.o) (_impure_ptr)
+c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-freer.o)
+                              c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-reent.o) (_free_r)
+c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+                              c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-freer.o) (__malloc_free_list)
+c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-sbrkr.o)
+                              c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-mlock.o)
+                              c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000000012000 0x0000000000020000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD main.o
+LOAD util.o
+LOAD startup.o
+LOAD c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a
+LOAD c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a
+LOAD c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libc_nano.a
+LOAD c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a
+START GROUP
+LOAD c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a
+LOAD c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libc_nano.a
+END GROUP
+
+.text           0x0000000000012000     0x1bc0
+ *(.text.entry)
+ .text.entry    0x0000000000012000       0x10 startup.o
+                0x0000000000012000                _start
+ *(.text .text.*)
+ .text          0x0000000000012010      0x604 main.o
+                0x0000000000012010                spi_transfer
+                0x00000000000120a8                flash_read_id
+                0x0000000000012114                flash_read_data
+                0x00000000000121a8                memory_read_data
+                0x00000000000121d8                print_hex_dump
+                0x0000000000012332                dump_flash_area
+                0x00000000000123e6                dump_memory_area
+                0x0000000000012498                main
+ .text          0x0000000000012614      0x8b2 util.o
+                0x0000000000012614                _sbrk
+                0x0000000000012634                _close
+                0x0000000000012654                _lseek
+                0x000000000001267c                _read
+                0x00000000000126a4                _fstat
+                0x00000000000126c4                _isatty
+                0x00000000000126fc                _getpid
+                0x000000000001270c                _kill
+                0x0000000000012730                _exit
+                0x000000000001273c                delay
+                0x0000000000012760                strlen_for_loop
+                0x000000000001279a                print
+                0x00000000000127ce                puts
+                0x0000000000012804                _write
+                0x000000000001284e                hsuart_send
+                0x00000000000128ba                my_memcpy
+                0x0000000000012920                my_putchar
+                0x0000000000012ad4                my_printf
+ .text          0x0000000000012ec6        0x0 startup.o
+ .text          0x0000000000012ec6        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_udivdi3.o)
+ .text.__udivdi3
+                0x0000000000012ec6      0x3a4 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_udivdi3.o)
+                0x0000000000012ec6                __udivdi3
+ .text          0x000000000001326a        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_umoddi3.o)
+ .text.__umoddi3
+                0x000000000001326a      0x38c c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_umoddi3.o)
+                0x000000000001326a                __umoddi3
+ .text          0x00000000000135f6        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_clz.o)
+ .text          0x00000000000135f6        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-memcpy.o)
+ .text.memcpy   0x00000000000135f6       0xdc c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-memcpy.o)
+                0x00000000000135f6                memcpy
+ .text          0x00000000000136d2        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000000136d2       0x20 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-reent.o)
+                0x00000000000136d2                cleanup_glue
+ .text._reclaim_reent
+                0x00000000000136f2       0xc2 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-reent.o)
+                0x00000000000136f2                _reclaim_reent
+ .text          0x00000000000137b4        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-impure.o)
+ .text          0x00000000000137b4        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .text._free_r  0x00000000000137b4       0xa2 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-freer.o)
+                0x00000000000137b4                _free_r
+ .text          0x0000000000013856        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x0000000000013856       0xd8 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000013856                _malloc_r
+ .text          0x000000000001392e        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x000000000001392e       0x30 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-sbrkr.o)
+                0x000000000001392e                _sbrk_r
+ .text          0x000000000001395e        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-mlock.o)
+ .text.__malloc_lock
+                0x000000000001395e        0x2 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-mlock.o)
+                0x000000000001395e                __malloc_lock
+ .text.__malloc_unlock
+                0x0000000000013960        0x2 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-mlock.o)
+                0x0000000000013960                __malloc_unlock
+ *(.rodata .rodata.*)
+ *fill*         0x0000000000013962        0x2 
+ .rodata        0x0000000000013964       0xa7 main.o
+ *fill*         0x0000000000013a0b        0x1 
+ .rodata        0x0000000000013a0c       0xb4 util.o
+ .rodata.__clz_tab
+                0x0000000000013ac0      0x100 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_clz.o)
+                0x0000000000013ac0                __clz_tab
+
+.eh_frame       0x0000000000013bc0       0x3c
+ .eh_frame      0x0000000000013bc0       0x28 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_udivdi3.o)
+ .eh_frame      0x0000000000013be8       0x14 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_umoddi3.o)
+                                         0x28 (size before relaxing)
+
+.srodata._global_impure_ptr
+                0x0000000000013bfc        0x4
+ .srodata._global_impure_ptr
+                0x0000000000013bfc        0x4 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-impure.o)
+                0x0000000000013bfc                _global_impure_ptr
+
+.rela.dyn       0x0000000000013c00        0x0
+ .rela.got      0x0000000000013c00        0x0 main.o
+ .rela.data.impure_data
+                0x0000000000013c00        0x0 main.o
+                0x0000000000013c00                . = ALIGN (0x4)
+
+.sdata          0x0000000000013c00        0x4
+                0x0000000000013c00                . = ALIGN (0x8)
+ *fill*         0x0000000000013c00        0x0 
+                0x0000000000023c00                __global_pointer$ = (. + 0x10000)
+ *(.srodata.cst4)
+ *(.srodata.cst8)
+ *(.sdata .sdata.*)
+ .sdata._impure_ptr
+                0x0000000000013c00        0x4 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-impure.o)
+                0x0000000000013c00                _impure_ptr
+ *(.sdata2 .sdata2.*)
+
+.data           0x0000000000013c04       0x64
+                0x0000000000013c04                . = ALIGN (0x4)
+ *(.data .data.*)
+ .data          0x0000000000013c04        0x4 main.o
+                0x0000000000013c04                readEfuse
+ .data          0x0000000000013c08        0x0 util.o
+ .data          0x0000000000013c08        0x0 startup.o
+ .data          0x0000000000013c08        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_udivdi3.o)
+ .data          0x0000000000013c08        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_umoddi3.o)
+ .data          0x0000000000013c08        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_clz.o)
+ .data          0x0000000000013c08        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-memcpy.o)
+ .data          0x0000000000013c08        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-reent.o)
+ .data          0x0000000000013c08        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000000013c08       0x60 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-impure.o)
+ .data          0x0000000000013c68        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000013c68        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000013c68        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000013c68        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-mlock.o)
+
+.got            0x0000000000013c68       0x10
+ .got           0x0000000000013c68       0x10 main.o
+                0x0000000000013c68                _GLOBAL_OFFSET_TABLE_
+
+.got.plt        0x0000000000013c78        0x8
+ .got.plt       0x0000000000013c78        0x8 main.o
+
+.bss            0x0000000000013c80      0x110
+                0x0000000000013c80                . = ALIGN (0x4)
+                0x0000000000013c80                __bss_start__ = .
+ *(.sbss .sbss.*)
+ .sbss.errno    0x0000000000013c80        0x4 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-reent.o)
+                0x0000000000013c80                errno
+ .sbss.__malloc_free_list
+                0x0000000000013c84        0x4 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000013c84                __malloc_free_list
+ .sbss.__malloc_sbrk_start
+                0x0000000000013c88        0x4 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000013c88                __malloc_sbrk_start
+ *(.bss .bss.*)
+ .bss           0x0000000000013c8c        0x4 main.o
+                0x0000000000013c8c                counter
+ .bss           0x0000000000013c90      0x100 util.o
+ .bss           0x0000000000013d90        0x0 startup.o
+ .bss           0x0000000000013d90        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_udivdi3.o)
+ .bss           0x0000000000013d90        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_umoddi3.o)
+ .bss           0x0000000000013d90        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_clz.o)
+ .bss           0x0000000000013d90        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-memcpy.o)
+ .bss           0x0000000000013d90        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-reent.o)
+ .bss           0x0000000000013d90        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-impure.o)
+ .bss           0x0000000000013d90        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000013d90        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000013d90        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000013d90        0x0 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-mlock.o)
+                0x0000000000013d90                __bss_end__ = .
+OUTPUT(firmware.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000      0xd54
+ .debug_info    0x0000000000000000      0x40a main.o
+ .debug_info    0x000000000000040a      0x924 util.o
+ .debug_info    0x0000000000000d2e       0x26 startup.o
+
+.debug_abbrev   0x0000000000000000      0x344
+ .debug_abbrev  0x0000000000000000      0x140 main.o
+ .debug_abbrev  0x0000000000000140      0x1f0 util.o
+ .debug_abbrev  0x0000000000000330       0x14 startup.o
+
+.debug_aranges  0x0000000000000000       0x60
+ .debug_aranges
+                0x0000000000000000       0x20 main.o
+ .debug_aranges
+                0x0000000000000020       0x20 util.o
+ .debug_aranges
+                0x0000000000000040       0x20 startup.o
+
+.debug_line     0x0000000000000000     0x1030
+ .debug_line    0x0000000000000000      0x668 main.o
+ .debug_line    0x0000000000000668      0x97e util.o
+ .debug_line    0x0000000000000fe6       0x4a startup.o
+
+.debug_str      0x0000000000000000      0x4bc
+ .debug_str     0x0000000000000000      0x23c main.o
+                                        0x293 (size before relaxing)
+ .debug_str     0x000000000000023c      0x26a util.o
+                                        0x402 (size before relaxing)
+ .debug_str     0x00000000000004a6       0x16 startup.o
+                                         0x40 (size before relaxing)
+
+.comment        0x0000000000000000       0x31
+ .comment       0x0000000000000000       0x31 main.o
+                                         0x32 (size before relaxing)
+ .comment       0x0000000000000031       0x32 util.o
+ .comment       0x0000000000000031       0x32 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000031       0x32 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_umoddi3.o)
+ .comment       0x0000000000000031       0x32 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(_clz.o)
+ .comment       0x0000000000000031       0x32 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-memcpy.o)
+ .comment       0x0000000000000031       0x32 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-reent.o)
+ .comment       0x0000000000000031       0x32 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-impure.o)
+ .comment       0x0000000000000031       0x32 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .comment       0x0000000000000031       0x32 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .comment       0x0000000000000031       0x32 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .comment       0x0000000000000031       0x32 c:/users/pc/desktop/ab_headset/main_riscv/xpack-riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imc/ilp32\libg_nano.a(lib_a-mlock.o)
+
+.debug_frame    0x0000000000000000      0x464
+ .debug_frame   0x0000000000000000      0x158 main.o
+ .debug_frame   0x0000000000000158      0x30c util.o
