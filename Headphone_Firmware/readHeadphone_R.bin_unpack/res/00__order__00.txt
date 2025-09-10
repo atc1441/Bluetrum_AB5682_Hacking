@@ -1,0 +1,106 @@
+// NOTICE: You should not modify the order of the resource files below in any way.
+// The firmware refers to each resource by the means of hardcoded offsets to the
+// address and size fields of the entries themselve, meaning that if you change
+// the order of the items (or insert something in between), you'll most likely just break it.
+// This file solely exists to not alter the order of the entries in case the filesystem where
+// these entries are being extracted to alters the order even further.
+// Also, the entries that are zero bytes in length are also listed there,
+// instead of being extracted like any other file.
+
+du.sbc
+ring.sbc
+test.wav
+anc_l0_msc.eq
+anc_l0_nos.drc
+anc_l0_nos.eq
+anc_r0_msc.eq
+anc_r0_nos.drc
+anc_r0_nos.eq
+anc_tp_l0_msc.eq
+anc_tp_l0_nos.drc
+anc_tp_l0_nos.eq
+anc_tp_r0_msc.eq
+anc_tp_r0_nos.drc
+anc_tp_r0_nos.eq
+en_aux_mode.sbc
+en_bt_mode.sbc
+en_call_hangup.sbc
+en_call_reject.sbc
+en_camera_mode.sbc
+en_camera_off.sbc
+en_camera_on.sbc
+en_connected.sbc
+en_disconnect.sbc
+en_game_mode.sbc
+en_language.sbc
+en_left_ch.sbc
+en_low_battery.sbc
+en_max_vol.sbc
+en_min_vol.sbc
+en_music_mode.sbc
+en_num_0.sbc
+en_num_1.sbc
+en_num_2.sbc
+en_num_3.sbc
+en_num_4.sbc
+en_num_5.sbc
+en_num_6.sbc
+en_num_7.sbc
+en_num_8.sbc
+en_num_9.sbc
+en_pairing.sbc
+en_poweroff.sbc
+en_poweron.sbc
+en_redialing.sbc
+en_right_ch.sbc
+en_wait4conn.sbc
+eq_bt_mic_16k.drc
+eq_bt_mic_16k.eq
+eq_bt_mic_16k_ns.eq
+eq_bt_mic_8k.drc
+eq_bt_mic_8k.eq
+eq_bt_mic_8k_ns.eq
+eq_call_dac.drc
+eq_call_normal.eq
+eq_check_res.eq
+eq_classic.eq
+eq_country.eq
+eq_dac.drc
+eq_jazz.eq
+eq_normal.eq
+eq_pop.eq
+eq_rock.eq
+zh_aux_mode.sbc
+zh_bt_mode.sbc
+zh_call_hangup.sbc
+zh_call_reject.sbc
+zh_camera_mode.sbc
+zh_camera_off.sbc
+zh_camera_on.sbc
+zh_connected.sbc
+zh_disconnect.sbc
+zh_game_mode.sbc
+zh_language.sbc
+zh_left_ch.sbc
+zh_low_battery.sbc
+zh_max_vol.sbc
+zh_min_vol.sbc
+zh_music_mode.sbc
+zh_num_0.sbc
+zh_num_1.sbc
+zh_num_2.sbc
+zh_num_3.sbc
+zh_num_4.sbc
+zh_num_5.sbc
+zh_num_6.sbc
+zh_num_7.sbc
+zh_num_8.sbc
+zh_num_9.sbc
+zh_pairing.sbc
+zh_poweroff.sbc
+zh_poweron.sbc
+zh_redialing.sbc
+zh_right_ch.sbc
+zh_wait4conn.sbc
+
+// Here is the end.
