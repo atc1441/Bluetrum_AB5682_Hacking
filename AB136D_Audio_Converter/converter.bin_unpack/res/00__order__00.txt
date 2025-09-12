@@ -1,0 +1,39 @@
+// NOTICE: You should not modify the order of the resource files below in any way.
+// The firmware refers to each resource by the means of hardcoded offsets to the
+// address and size fields of the entries themselve, meaning that if you change
+// the order of the items (or insert something in between), you'll most likely just break it.
+// This file solely exists to not alter the order of the entries in case the filesystem where
+// these entries are being extracted to alters the order even further.
+// Also, the entries that are zero bytes in length are also listed there,
+// instead of being extracted like any other file.
+
+max_vol.wav
+poweron.mp3
+update.mp3
+update_done.mp3
+drc_normal.drc
+drc_usb_mic_v0.drc
+en_aux_mode.mp3
+en_clock_mode.mp3
+en_fm_mode.mp3
+en_language.mp3
+en_low_battery.mp3
+en_max_vol.mp3
+en_music_mode.mp3
+en_pc_mode.mp3
+en_poweroff.mp3
+en_rec_start.mp3
+en_sdcard_mode.mp3
+en_spk_mode.mp3
+en_usb_mode.mp3
+eq_classic.eq
+eq_country.eq
+eq_jazz.eq
+eq_mic_16k.eq
+eq_mic_48k.eq
+eq_normal.eq
+eq_pop.eq
+eq_rock.eq
+eq_soft_normal.eq
+
+// Here is the end.
