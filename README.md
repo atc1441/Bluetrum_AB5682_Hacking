@@ -30,7 +30,7 @@ You can find the dumped internal flash of the A9 Pro here [Headset_A9_Pro_Flash_
 
 ## Custom Firmware
 
-Currently the [custom_firmware](custom_firmware) is only adapted so it will run in RAM and will be loaded by teh Bleutrum-Tool.
+Currently the [custom_firmware](custom_firmware) is only adapted so it will run in RAM and will be loaded by the Bleutrum-Tool.
 The edited uploader will, after upload wait for any UART Outputs and print those.
 
 Since the stack / pointers will be destroyed by the booting of the custom firmware returning from the custom firmware does not fully work. So only one CMD can be executed in the "Bootloader way". This needs to be looked into so a fully flash reader and writer can be made, flash reading and writing is done manualy right now.
